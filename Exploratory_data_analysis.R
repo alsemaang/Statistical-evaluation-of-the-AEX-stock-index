@@ -140,4 +140,3 @@ plot(
 abline(h = 0, col = "grey40", lty = 2)
 
 dev.off()
-

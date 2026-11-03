@@ -29,3 +29,4 @@ colSums(is.na(aex))
 
 # Count duplicated dates
 sum(duplicated(aex$Date))
+
