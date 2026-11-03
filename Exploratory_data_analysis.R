@@ -114,6 +114,17 @@ write.csv(
 )
 
 
+# Check the figures quoted in the report
+sum(aex$Volume == 0)
+
+aex[c(1, nrow(aex)), c("Date", "Close")]
+
+aex[aex$Close == max(aex$Close), c("Date", "Close")]
+
+sum(aex$Volume == 0)
+aex[aex$Close == max(aex$Close), c("Date", "Close")]
+
+
 # Plot daily returns over time
 png("figures/aex_daily_returns.png",
     width = 2700, height = 1500, res = 300)
