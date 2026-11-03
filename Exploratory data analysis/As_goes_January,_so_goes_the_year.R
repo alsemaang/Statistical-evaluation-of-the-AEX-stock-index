@@ -1,4 +1,3 @@
-# Mathematical Statistics I: AEX project
 # Question 2(i): parametric model for the daily returns in 2005 and 2020
 
 # Import and check the data using our existing script
