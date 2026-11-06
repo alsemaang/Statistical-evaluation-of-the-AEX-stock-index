@@ -71,3 +71,4 @@ legend(
 
 # Finish writing the image
 dev.off()
+
