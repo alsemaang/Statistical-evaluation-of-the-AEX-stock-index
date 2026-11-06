@@ -1,4 +1,3 @@
-
 # Exercise 2k
 # Daily returns
 r <- 100 * (aex$Close - aex$Open) / aex$Open
@@ -64,4 +63,3 @@ results2020 <- data.frame(
 
 print(results2005)
 print(results2020)
-
